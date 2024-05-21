@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
             showError('Tehtävä ei voi olla tyhjä');
             return;
         }
-        if (taskText.length < 4) {
-            alert('Tehtävän tulee olla vähintään 4 merkkiä pitkä');
+        if (taskText.length < 3) {
+            alert('Tehtävän tulee olla vähintään 3 merkkiä pitkä');
             return;
         }
 
